@@ -65,7 +65,7 @@ nav li a:hover {
 
 h1 {
   text-align: center;
-  font-size: 50%;
+  font-size: 350%;
   padding-bottom: 20px;
   padding-top: 20px;
   color: #3C7A89;
@@ -83,7 +83,7 @@ h1 {
 p {
   font-family: 'Domine', serif;
   text-indent: 50px;
-  font-size: 30%;
+  font-size: 100%;
 
 }
 p:first-of-type {
@@ -104,6 +104,6 @@ p:first-of-type {
   font-family: 'Domine', serif;
   color: gray;
   font-style: italic;
-  font-size: 20%;
+  font-size: 80%;
   text-indent: 0px;
 }
