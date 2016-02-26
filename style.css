@@ -1,0 +1,109 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #DBC2CF;
+  height: 12%;
+  width: 100%;
+}
+body {
+  padding-top: 100px;
+  background-color: white;
+  padding-bottom: 100px;
+}
+nav li {
+  float: left;
+  width: auto;
+  list-style-type: none;
+  margin: 0 auto;
+  width: 32.5%;
+  text-align: center;
+  padding-top: 2%;
+}
+nav li a {
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  color: #3C7A89;
+  font-size: 170%;
+  font-family: 'Passion One', cursive;
+}
+nav li a:hover {
+  color: #16262E;
+}
+@media screen and (max-width: 500px) {
+  body {
+    padding-top: 240px;
+  }
+  nav li {
+    float: none;
+    padding-bottom: 2%;
+    padding-left: 0;
+  }
+  nav {
+    height: 35%;
+  }
+
+}
+
+.novels img {
+  width: 90%;
+  height: 90%;
+  padding-bottom: 20%;
+  margin: 0;
+  -webkit-transition: all .3s ease-in, opacity .3s ease-in;
+  transition: all .3s ease-in, opacity .3s ease-in;
+  opacity: .6;
+
+}
+.novels img:hover {
+  width: 120%;
+  height: 120%;
+  margin: -15%;
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #3C7A89;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+  border-bottom-color: #DBC2CF;
+  border-top-style: double;
+  border-top-width: 5px;
+  border-top-color: #DBC2CF;
+  width: 100%;
+  margin-top: 30px;
+  font-family: 'Passion One', cursive;
+}
+
+p {
+  font-family: 'Domine', serif;
+  text-indent: 50px;
+  font-size: 30%;
+
+}
+p:first-of-type {
+  padding-top: 3%;
+}
+.Pen {
+  margin-top: 2%;
+}
+.indexImage {
+  width: 99%;
+  height: 99%;
+  margin-top: 2%;
+  border-color: #3C7A89;
+  border-width: 5px;
+  border-style: solid;
+}
+.photoCred {
+  font-family: 'Domine', serif;
+  color: gray;
+  font-style: italic;
+  font-size: 20%;
+  text-indent: 0px;
+}
